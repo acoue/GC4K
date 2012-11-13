@@ -1,0 +1,48 @@
+<html>
+<p align="center" style="color: red; font-size: 16px;"><strong>Paramètres de l'application</strong></p>
+<p align="center"><img src="##image1##" border="0"/></p>
+
+
+<p align="justify">les paramètres de l'application modifiable sont les suivants :
+<ul>
+<li><b>Nom de la compétition :</b> Cette zone apparaît sur les feuilles de poules, les tableaux et la page d'accueil de l'application</li>
+<li><b>Date de la compétition :</b> Cette zone apparaît sur les feuilles de poules, les tableaux et la page d'accueil de l'application</li>
+<li><b>Lieux de la compétition :</b> Cette zone apparaît sur les feuilles de poules, les tableaux et la page d'accueil de l'application</li>
+<li><b>Description</b></li>
+<li><b>Logo page accueil :</b> logo (format jpg) de la page d'accueil, par défaut le logo du CNK. Pour le modifier, cliquer sur la zone</li>
+<li><b>Emplacement des fichiers :</b> emplacement où seront stockés les fichiers générés (poules, liste des poules, tableaux). Pour le modifier, cliquer sur la zone</li>
+</ul>
+Pour effectuer les modifications sur ces éléments, modifiez les zones en question et valider aves le bouton "Valider".
+</p>
+<br />
+<br />
+<hr />
+<br />
+<p align="center" style="color: red; font-size: 16px;"><strong>Configuration de l'application</strong></p>
+<p align="center"><img src="##image2##" border="0"/></p>
+<p align="justify">la configuration de l'application correspond aux actions suivantes : 
+<ul>
+<li><b>Vider table participant : </b>contient les informations sur les participants de la compétition</li>
+<li><b>Vider table club : </b>contient les informations sur les clubs</li>
+<li><b>Vider table catégorie : </b>contient les informations sur les catégories</li>
+<li><b>Vider table relation Participants / Catégories : </b>contient les informations sur la répartition des participants dans la ou les catégories</li>
+<li><b>Vider table gestion du tirage poule et tableau : </b>contient les informations sur les tirages au sort, la répartition deans les poules et les tableaux</li>
+<li><b>Vider table gestion des combats : </b>contient les informations sur les combats de poules</li>
+</ul>
+Au début de chaque compétition il est conseillé de vides les tables "tirage poule et tableau" et "gestion des combats". Les vider vides toutes les données sur le tirage au sort et gestion des combats pour toutes les catégories.
+<br />
+Pour les tables "participant", "club", "catégorie", il est conseillé de vérifier leur contenu avant de les vider sous peine de resaisie involontaire.<br />
+Pour la table gérant les "relation Participants / Catégories", la vider supprime toutes les répartition pour toutes les catégories.
+<br />
+Pour effectuer ces actions, cocher la ou les case et validez en cliquant sur le bouton "Exécuter".
+Pour 
+<ul>
+<li><b>Charger table catégorie : </b>permet de complèter la liste des catégories à partir d'un fichier texte</li>
+<li><b>Charger table club : </b>permet de complèter la liste des clubs à partir d'un fichier texte</li>
+<li><b>Charger table participant : </b>permet de complèter la liste des participants à partir d'un fichier texte</li>
+</ul>
+Pour effectuer ces opérations, il suffit de sélectionner le chargement que vous souhaitez effectuer et de cliquer sur "Charger". Une boite de dialogue s'ouvre afin de selectionner le fichier et terminez en validant.<br />
+Pour charger les catégorie et les clubs, un fichier texte contenant une liste, soit une seule colonne, est nécessaire. <br />
+Pour les participants, un fichier texte contenant 2 colonnes séparées par un ";" : la première contenant le prénom et le nom de la personne et la deuxième le Club.
+</p>
+</html>
